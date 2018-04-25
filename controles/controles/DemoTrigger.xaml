@@ -3,8 +3,22 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="controles.DemoTrigger">
     <ContentPage.Content>
-        <StackLayout>
-            <Label></Label>
+        <StackLayout VerticalOptions="Center">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Titulo"></Label>
+                <Entry x:Name="EntryTitulo" Placeholder="Ingrese titulo" HorizontalOptions="Center"></Entry>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Autor"></Label>
+                <Entry x:Name="EntryAutor" Placeholder="Ingrese autor" HorizontalOptions="Center"></Entry>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Area"></Label>
+                <Entry x:Name="EntryArea" Placeholder="Ingrese area" HorizontalOptions="Center"></Entry>
+            </StackLayout>
+            <StackLayout>
+                <Button Text="Enviar"></Button>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

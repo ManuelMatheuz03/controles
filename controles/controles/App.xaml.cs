@@ -13,7 +13,7 @@ namespace controles
 		{
 			InitializeComponent();
 
-			MainPage = new controles.MainPage();
+			MainPage = new controles.DemoTrigger();
 		}
 
 		protected override void OnStart ()
